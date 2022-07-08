@@ -1,5 +1,5 @@
 //
-//  BankManagerConsoleApp - main.swift
+//  BankManagerConsoleApp - TemporaryMain.swift
 //  Created by yagom. 
 //  Copyright © yagom academy. All rights reserved.
 // 
@@ -36,5 +36,3 @@ func initiateBankBusiness() {
     
     bank.bankBusinessStart()
 }
-
-initiateBankBusiness()

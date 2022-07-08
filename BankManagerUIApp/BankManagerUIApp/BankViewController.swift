@@ -1,18 +1,19 @@
 //
-//  BankManagerUIApp - ViewController.swift
+//  BankManagerUIApp - BankViewController.swift
 //  Created by yagom. 
 //  Copyright © yagom academy. All rights reserved.
 // 
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class BankViewController: UIViewController {
+    var bankView: BankUI?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        configureUI()
     }
-
-
 }
+
+
 
